@@ -1,0 +1,38 @@
+﻿@model Succulentwebsite.Models.ContentPage
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="/scripts/bootstrap.js" type="text/javascript"></script>
+<link href="/content/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="/EmptyCSSFile.css" rel="stylesheet" type="text/css" />
+
+@Model.Title
+
+<div class="container-fluid">
+    <div class="row">
+
+
+        <img src="@Model.ImageUrl" style="border:solid; border-width:2px; border-color:black; align-self:center; text-align:center; margin:20px;" />
+
+        <div class="container-fluid">
+        <h3> How to Save and Copy the Image </h3>
+        <h4> If You're Using a Laptop or a Computer: </h4>
+        <ol>
+            <li> Right Click </li>
+            <li> Select "Save Image As" OR "Copy Image" </li>
+            
+        </ol>
+
+        <h4> If You're Using a Tablet </h4>
+        <ol>
+            <li> Hold Down On The Image  </li>
+            <li> Select "Add To Photos" OR "Copy" </li>
+            
+        </ol>
+
+
+    </div>
+</div>
+</div>
