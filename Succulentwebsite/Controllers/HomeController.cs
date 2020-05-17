@@ -33,15 +33,20 @@ namespace Succulentwebsite.Controllers
             return View("fruitandvegetables");
         }
 
-        public ActionResult dog()
+        public ActionResult termsandconditions()
         {
-            return View("dog");
+            return View("termsandconditions");
+        }
+
+        public ActionResult privacypolicy()
+        {
+            return View("privacypolicy");
         }
 
 
 
 
-            public ActionResult ImagePage(string id)
+        public ActionResult ImagePage(string id)
             {
            
                 ContentPage result = new ContentPage();
@@ -244,3 +249,4 @@ namespace Succulentwebsite.Controllers
         }
     
 }
+
