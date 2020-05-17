@@ -192,6 +192,48 @@ namespace Succulentwebsite.Controllers
                     result.Title = "";
 
                     break;
+
+                case "fruit1":
+
+                    result.ImageUrl = "/content/images/fruitandvegetables/fruit1.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "fruit2":
+
+                    result.ImageUrl = "/content/images/fruitandvegetables/fruit2.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "fruit3":
+
+                    result.ImageUrl = "/content/images/fruitandvegetables/fruit3.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+
+                case "fruit4":
+
+                    result.ImageUrl = "/content/images/fruitandvegetables/fruit4.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+
+                case "fruit5":
+
+                    result.ImageUrl = "/content/images/fruitandvegetables/fruit5.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
             }
 
             

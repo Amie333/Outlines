@@ -20,10 +20,19 @@ div.homepageimg {
 
 
 
+div.boxhome {margin:auto;
+  align-content:center;
+  text-align:center;
 
+        
+}
 
  
-
+h3.style7 {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+           color:black;
+           font-weight:bold;
+           text-align:center;
+}
 
 
 /* about us box */
@@ -49,7 +58,12 @@ h2.contabout {
     padding:3px;
 }
 
-
+p.styleabout {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              font-weight:bold;
+              color:black;
+              text-align:center;
+              font-size:large;
+}
 
 
 /* boxes */
@@ -113,13 +127,14 @@ div.styleboximg {border:solid;
 
 h5.style1 {align-self:left;
            text-align:left;
-           margin:8px;
+           
 }
 
-ul.style1 {
+p.style1 {
     align-self: center;
     text-align: center;
-    margin: 8px;
+    margin-left:9px;
+    padding:1px;
 }
 h6.style1 {
     align-self: left;
@@ -151,3 +166,4 @@ h3.style3 {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'L
 h4.style3 {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
 
 p.style3{ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+
