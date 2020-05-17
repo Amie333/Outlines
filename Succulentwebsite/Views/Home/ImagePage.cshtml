@@ -14,27 +14,47 @@
     <div class="row">
 
 
-        <img src="@Model.ImageUrl" style="border:solid; border-width:2px; border-color:black; align-self:center; text-align:center; margin:auto; margin-top:20px;  margin-bottom:20px;  "/>
+        <img src="@Model.ImageUrl" style="border:solid; border-width:2px; border-color:black; align-self:center; text-align:center; margin:auto; margin-top:20px;  margin-bottom:20px;  " />
 
         <div class="container-fluid textstyle">
-        <h3 class="style3"> How to Save and Copy the Image </h3>
-        <h4 class="style3"> If You're Using a Laptop or a Computer: </h4>
-        <div class="container">
+            <h3 class="style3"> How to Save and Copy the Image </h3>
+            <h4 class="style3"> If You're Using a Laptop or a Computer: </h4>
+            <div class="container">
+                <ol>
+                    <p class="style3"> 1. Right Click on the Image </p>
+                    <p class="style3"> 2. Select "Save Image As" OR "Copy Image" </p>
+
+                </ol>
+            </div>
+
+            <h4 class="style3"> If You're Using a Tablet </h4>
             <ol>
-                <p class="style3"> 1. Right Click on the Image </p>
-                <p class="style3"> 2. Select "Save Image As" OR "Copy Image" </p>
+                <p class="style3"> 1. Hold Down On The Image  </p>
+                <p class="style3"> 2. Select "Add To Photos" OR "Copy" </p>
 
             </ol>
+
+
         </div>
 
-        <h4 class="style3"> If You're Using a Tablet </h4>
-        <ol>
-            <p class="style3"> 1. Hold Down On The Image  </p>
-            <p class="style3"> 2. Select "Add To Photos" OR "Copy" </p>
+
+
+        <!-- button -->
+
+        <div class="container-fluid">
+                <div class="butcenter">
+                   
+         
+                            <button  class="buttonout" onclick="goBack()">Go Back</button>
+
+                            <script>function goBack() {
+                                    window.history.back();
+                                }</script>
+
+                      
+                    </a>
+                </div>
             
-        </ol>
+        </div>
 
-
-    </div>
-</div>
-</div>
+       

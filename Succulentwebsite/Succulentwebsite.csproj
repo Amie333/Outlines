@@ -216,6 +216,7 @@
     <Content Include="Content\Images\fruitandvegetables\fruit4.PNG" />
     <Content Include="Content\Images\fruitandvegetables\fruit5.PNG" />
     <Content Include="Views\Home\ImagePage.cshtml" />
+    <Content Include="Content\pencils2.PNG" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.0.0.slim.min.map" />
