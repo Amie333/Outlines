@@ -227,6 +227,9 @@
     <Content Include="Content\Images\Animals\sea6.PNG" />
     <Content Include="Content\Images\Animals\sea7.PNG" />
     <Content Include="Content\Images\Animals\sea8.PNG" />
+    <Content Include="Content\Images\Animals\bird1.PNG" />
+    <Content Include="Content\Images\Animals\bird2.PNG" />
+    <Content Include="Content\Images\Animals\bird3.PNG" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.0.0.slim.min.map" />
