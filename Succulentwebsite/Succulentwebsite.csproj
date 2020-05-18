@@ -219,6 +219,14 @@
     <Content Include="Content\pencils2.PNG" />
     <Content Include="Views\Home\termsandconditions.cshtml" />
     <Content Include="Views\Home\privacypolicy.cshtml" />
+    <Content Include="Content\Images\Animals\sea1.PNG" />
+    <Content Include="Content\Images\Animals\sea2.PNG" />
+    <Content Include="Content\Images\Animals\sea3.PNG" />
+    <Content Include="Content\Images\Animals\sea4.PNG" />
+    <Content Include="Content\Images\Animals\sea5.PNG" />
+    <Content Include="Content\Images\Animals\sea6.PNG" />
+    <Content Include="Content\Images\Animals\sea7.PNG" />
+    <Content Include="Content\Images\Animals\sea8.PNG" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.0.0.slim.min.map" />

@@ -150,6 +150,70 @@ namespace Succulentwebsite.Controllers
 
                     break;
 
+                case "sea1":
+
+                    result.ImageUrl = "/content/images/animals/sea1.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "sea2":
+
+                    result.ImageUrl = "/content/images/animals/sea2.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "sea3":
+
+                    result.ImageUrl = "/content/images/animals/sea3.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "sea4":
+
+                    result.ImageUrl = "/content/images/animals/sea4.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "sea5":
+
+                    result.ImageUrl = "/content/images/animals/sea5.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "sea6":
+
+                    result.ImageUrl = "/content/images/animals/sea6.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "sea7":
+
+                    result.ImageUrl = "/content/images/animals/sea7.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "sea8":
+
+                    result.ImageUrl = "/content/images/animals/sea8.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
                 case "cacti":
 
                     result.ImageUrl = "/content/images/plants/cacti.png";
@@ -239,6 +303,8 @@ namespace Succulentwebsite.Controllers
                     result.Title = "";
 
                     break;
+
+
             }
 
             
