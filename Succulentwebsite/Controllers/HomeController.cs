@@ -57,7 +57,7 @@ namespace Succulentwebsite.Controllers
 
 
                         result.ImageUrl = "/content/images/animals/dog.png";
-                        result.Description = "";
+                        result.Description = "" ;
                         result.Title = "";
 
                         break;
