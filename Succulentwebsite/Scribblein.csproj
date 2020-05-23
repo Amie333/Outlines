@@ -230,6 +230,12 @@
     <Content Include="Content\Images\Animals\bird1.PNG" />
     <Content Include="Content\Images\Animals\bird2.PNG" />
     <Content Include="Content\Images\Animals\bird3.PNG" />
+    <Content Include="Content\Images\Animals\ins2.PNG" />
+    <Content Include="Content\Images\Animals\ins3.PNG" />
+    <Content Include="Content\Images\Animals\ins4.PNG" />
+    <Content Include="Content\Images\Animals\ins5.PNG" />
+    <Content Include="Content\Images\Animals\ins6.PNG" />
+    <Content Include="Content\Images\Animals\ins1.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.0.0.slim.min.map" />

@@ -231,13 +231,46 @@ namespace Succulentwebsite.Controllers
 
                     break;
 
-                case "bird3":
+                case "ins1":
 
-                    result.ImageUrl = "/content/images/animals/bird3.png";
+                    result.ImageUrl = "/content/images/animals/ins1.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
+
+                case "ins2":
+
+                    result.ImageUrl = "/content/images/animals/ins2.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "ins4":
+
+                    result.ImageUrl = "/content/images/animals/ins4.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "ins5":
+
+                    result.ImageUrl = "/content/images/animals/ins5.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "ins6":
+
+                    result.ImageUrl = "/content/images/animals/ins6.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
 
                 case "cacti":
 
