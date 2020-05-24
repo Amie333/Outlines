@@ -236,6 +236,17 @@
     <Content Include="Content\Images\Animals\ins5.PNG" />
     <Content Include="Content\Images\Animals\ins6.PNG" />
     <Content Include="Content\Images\Animals\ins1.png" />
+    <Content Include="Views\Home\mythicalcreatures.cshtml" />
+    <Content Include="Views\Home\transport.cshtml" />
+    <Content Include="Content\Images\mythicalcreatures\uni1.PNG" />
+    <Content Include="Content\Images\mythicalcreatures\uni3.PNG" />
+    <Content Include="Content\Images\mythicalcreatures\uni2.PNG" />
+    <Content Include="Content\Images\mythicalcreatures\uni4.PNG" />
+    <Content Include="Content\Images\mythicalcreatures\drag1.PNG" />
+    <Content Include="Content\Images\mythicalcreatures\drag2.PNG" />
+    <Content Include="Content\Images\mythicalcreatures\drag3.PNG" />
+    <Content Include="Content\Images\mythicalcreatures\fairy1.PNG" />
+    <Content Include="Content\Images\mythicalcreatures\mer1.PNG" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.0.0.slim.min.map" />

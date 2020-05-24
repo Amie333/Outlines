@@ -33,6 +33,11 @@ namespace Succulentwebsite.Controllers
             return View("fruitandvegetables");
         }
 
+        public ActionResult mythicalcreatures()
+        {
+            return View("mythicalcreatures");
+        }
+
         public ActionResult termsandconditions()
         {
             return View("termsandconditions");
@@ -362,7 +367,77 @@ namespace Succulentwebsite.Controllers
 
                     break;
 
+                case "uni1":
 
+                    result.ImageUrl = "/content/images/mythicalcreatures/uni1.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "uni2":
+
+                    result.ImageUrl = "/content/images/mythicalcreatures/uni2.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "uni3":
+
+                    result.ImageUrl = "/content/images/mythicalcreatures/uni3.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "uni4":
+
+                    result.ImageUrl = "/content/images/mythicalcreatures/uni4.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "drag1":
+
+                    result.ImageUrl = "/content/images/mythicalcreatures/drag1.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "drag2":
+
+                    result.ImageUrl = "/content/images/mythicalcreatures/drag2.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "drag3":
+
+                    result.ImageUrl = "/content/images/mythicalcreatures/drag3.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "fairy1":
+
+                    result.ImageUrl = "/content/images/mythicalcreatures/fairy1.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "mer1":
+
+                    result.ImageUrl = "/content/images/mythicalcreatures/mer1.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
             }
 
             
