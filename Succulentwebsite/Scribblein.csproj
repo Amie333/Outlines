@@ -247,6 +247,12 @@
     <Content Include="Content\Images\mythicalcreatures\drag3.PNG" />
     <Content Include="Content\Images\mythicalcreatures\fairy1.PNG" />
     <Content Include="Content\Images\mythicalcreatures\mer1.PNG" />
+    <Content Include="Content\Images\transport\trans1.PNG" />
+    <Content Include="Content\Images\transport\trans2.PNG" />
+    <Content Include="Content\Images\transport\trans3.PNG" />
+    <Content Include="Content\Images\transport\trans6.PNG" />
+    <Content Include="Content\Images\transport\trans4.PNG" />
+    <Content Include="Content\Images\transport\trans5.PNG" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.0.0.slim.min.map" />

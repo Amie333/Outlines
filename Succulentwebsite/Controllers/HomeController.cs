@@ -38,6 +38,11 @@ namespace Succulentwebsite.Controllers
             return View("mythicalcreatures");
         }
 
+        public ActionResult transport()
+        {
+            return View("transport");
+        }
+
         public ActionResult termsandconditions()
         {
             return View("termsandconditions");
@@ -434,6 +439,55 @@ namespace Succulentwebsite.Controllers
                 case "mer1":
 
                     result.ImageUrl = "/content/images/mythicalcreatures/mer1.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+
+                case "trans1":
+
+                    result.ImageUrl = "/content/images/transport/trans1.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "trans2":
+
+                    result.ImageUrl = "/content/images/transport/trans2.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "trans3":
+
+                    result.ImageUrl = "/content/images/transport/trans3.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "trans4":
+
+                    result.ImageUrl = "/content/images/transport/trans4.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "trans5":
+
+                    result.ImageUrl = "/content/images/transport/trans5.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "trans6":
+
+                    result.ImageUrl = "/content/images/transport/trans6.png";
                     result.Description = "";
                     result.Title = "";
 
