@@ -50,7 +50,7 @@ div.contabout {
     border:solid;
     border-width:3px;
     border-color:darkgrey;
-    margin-top: 10px;
+    margin-top: 30px;
     align-content: center;
     object-fit:contain;
 }
@@ -97,6 +97,25 @@ div.stylebox2:hover {
     box-shadow: 2px 2px 10px 5px lightgrey;
 }
 
+div.styleboximgfruit {
+    background-color: white;
+    width: 95%;
+    height: 500px;
+    margin-top: 20px;
+    text-align: ;
+    padding: 20px;
+    box-shadow: 2px 2px 10px 5px darkgrey;
+}
+
+div.styleboximgfruit2:hover {
+    background-color: white;
+    width: 95%;
+    height: 500px;
+    margin-top: 20px;
+    text-align: ;
+    padding: 20px;
+    box-shadow: 2px 2px 10px 5px lightgrey;
+}
 
 
 h2.boxes {
@@ -164,7 +183,7 @@ h5.style1 {align-self:left;
 
 p.style1 {
     align-self: center;
-    text-align: center;
+    text-align: left;
     margin-left:9px;
     padding:1px;
 }
