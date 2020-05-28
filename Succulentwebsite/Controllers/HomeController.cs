@@ -43,6 +43,11 @@ namespace Succulentwebsite.Controllers
             return View("transport");
         }
 
+        public ActionResult disney()
+        {
+            return View("disney");
+        }
+
         public ActionResult termsandconditions()
         {
             return View("termsandconditions");
@@ -488,6 +493,151 @@ namespace Succulentwebsite.Controllers
                 case "trans6":
 
                     result.ImageUrl = "/content/images/transport/trans6.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "trans7":
+
+                    result.ImageUrl = "/content/images/transport/trans7.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "trans8":
+
+                    result.ImageUrl = "/content/images/transport/trans8.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "trans9":
+
+                    result.ImageUrl = "/content/images/transport/trans9.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "trans10":
+
+                    result.ImageUrl = "/content/images/transport/trans10.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+
+                case "trans11":
+
+                    result.ImageUrl = "/content/images/transport/trans11.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+
+                case "dis1":
+
+                    result.ImageUrl = "/content/images/disney/dis1.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "dis2":
+
+                    result.ImageUrl = "/content/images/disney/dis2.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "dis3":
+
+                    result.ImageUrl = "/content/images/disney/dis3.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "dis4":
+
+                    result.ImageUrl = "/content/images/disney/dis4.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "dis5":
+
+                    result.ImageUrl = "/content/images/disney/dis5.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "dis6":
+
+                    result.ImageUrl = "/content/images/disney/dis6.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+
+                case "dis7":
+
+                    result.ImageUrl = "/content/images/disney/dis7.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+
+                case "dis8":
+
+                    result.ImageUrl = "/content/images/disney/dis8.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+
+                case "dis9":
+
+                    result.ImageUrl = "/content/images/disney/dis9.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+
+                case "dis10":
+
+                    result.ImageUrl = "/content/images/disney/dis10.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+
+
+                case "dis11":
+
+                    result.ImageUrl = "/content/images/disney/dis11.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+
+                case "dis12":
+
+                    result.ImageUrl = "/content/images/disney/dis12.png";
                     result.Description = "";
                     result.Title = "";
 

@@ -76,24 +76,34 @@ p.styleabout {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
 
 /* boxes */
 
-div.circlebox { border:solid;
-                border-width:2px;
-                border-color:black;
-                border-radius:50px;
+div.stylebox { 
+                background-color:white;
                 width:95%;
                 height:auto;
-                box-shadow:0px 4px 8px 0px;
                 margin-top:20px;
-                height:auto;
+                text-align:center;
+                padding:20px;
+                box-shadow: 2px 2px 10px 5px darkgrey;
+                
 }
+
+div.stylebox2:hover {
+    background-color: white;
+    width: 95%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 2px 2px 10px 5px lightgrey;
+}
+
 
 
 h2.boxes {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size:x-large;
     color:black;
-    padding:10px;
-    margin:40px;
+    padding-top:9%;
     text-align:center;
     align-self:center;
     align-content:center;
@@ -107,7 +117,7 @@ h2.boxes {
 h2.title {align-self:center;
           text-align:center;
           margin:20px;
-          padding:20px;
+          padding:15px;
           font-size:xx-large;
           color:black;
           font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -123,13 +133,24 @@ div.picturepage {
 
 /*images on each page */
 
-div.styleboximg {border:solid;
-                 border-width:1px;
-                 border-color:black;
-                 margin:7px;
-                 height:100%;
+div.styleboximg {
+    background-color: white;
+    width: 95%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 2px 2px 10px 5px darkgrey;
+}
 
-                 
+div.styleboximg2:hover {
+    background-color: white;
+    width: 95%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 2px 2px 10px 5px lightgrey;
 }
 
 div.containersize {margin-top:7px;
@@ -164,14 +185,11 @@ h6.style1 {
 
 
 div.textstyle {
-    background-color: lightgrey;
-    border-top: solid;
-    border-width: 2px;
-    border-color: black;
-    border-bottom: solid;
-    border-bottom-width: 2px;
+    background-color: white;
+    box-shadow: 2px 2px 10px 5px darkgrey;
     align-content: center;
-    text-align:center;
+    text-align: center;
+    padding:10px;
 }
 
 h3.style3 {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
@@ -251,9 +269,8 @@ div.butcenter {text-align:center;
 
 button.buttonout {
     border-radius: 12px;
-    border: solid;
-    border-width: 2px;
-    background-color: #00e6ba;
+    box-shadow: 2px 2px 10px 5px darkgrey;
+    background-color: white;
     text-align: center;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -264,14 +281,14 @@ button.buttonout {
     align-self: center;
     align-content: center;
     margin: 15px;
+    margin-top:30px;
     align-items: center;
 }
 
-button.buttonout2 {
+button.buttonout2:hover {
     border-radius: 12px;
-    border: solid;
-    border-width: 2px;
-    background-color: #f7b702;
+    box-shadow: 2px 2px 10px 5px lightgrey;
+    background-color: white;
     text-align: center;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -282,44 +299,10 @@ button.buttonout2 {
     align-self: center;
     align-content: center;
     margin: 15px;
+    margin-top: 30px;
     align-items: center;
 }
 
-button.buttonout3 {
-    border-radius: 12px;
-    border: solid;
-    border-width: 2px;
-    background-color: #6fba00;
-    text-align: center;
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 5px;
-    height: 50px;
-    width: 80%;
-    font-size: larger;
-    align-self: center;
-    align-content: center;
-    margin: 15px;
-    align-items: center;
-}
-
-button.buttonout4 {
-    border-radius: 12px;
-    border: solid;
-    border-width: 2px;
-    background-color: #e975a2;
-    text-align: center;
-    color: black;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 5px;
-    height: 50px;
-    width: 80%;
-    font-size: larger;
-    align-self: center;
-    align-content: center;
-    margin: 15px;
-    align-items: center;
-}
 
 /* terms and conditions and privacy policy */
 
@@ -328,4 +311,5 @@ div.termsstyle {font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande
                 padding:10px;
                 align-self:center;
 }
+
 

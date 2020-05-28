@@ -253,6 +253,26 @@
     <Content Include="Content\Images\transport\trans6.PNG" />
     <Content Include="Content\Images\transport\trans4.PNG" />
     <Content Include="Content\Images\transport\trans5.PNG" />
+    <Content Include="Content\Images\transport\trans7.PNG" />
+    <Content Include="Content\Images\transport\trans8.PNG" />
+    <Content Include="Content\Images\transport\trans9.PNG" />
+    <Content Include="Content\Images\transport\trans10.PNG" />
+    <Content Include="Content\Images\transport\trans11.PNG" />
+    <Content Include="Views\Home\disney.cshtml" />
+    <Content Include="Content\Images\disney\dis6.PNG" />
+    <Content Include="Content\Images\disney\dis7.PNG" />
+    <Content Include="Content\Images\disney\dis5.PNG" />
+    <Content Include="Content\Images\disney\dis4.PNG" />
+    <Content Include="Content\Images\disney\dis1.PNG" />
+    <Content Include="Content\Images\disney\dis3.PNG" />
+    <Content Include="Content\Images\disney\dis2.PNG" />
+    <Content Include="Content\Images\disney\dis9.PNG" />
+    <Content Include="Content\Images\disney\dis11.PNG" />
+    <Content Include="Content\Images\disney\dis10.PNG" />
+    <Content Include="Content\Images\disney\dis8.PNG" />
+    <Content Include="Content\Images\disney\dis12.PNG" />
+    <Content Include="Views\Home\backupindex.cshtml" />
+    <Content Include="Views\Home\indexcopy.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Scripts\jquery-3.0.0.slim.min.map" />
