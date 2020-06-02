@@ -14,7 +14,10 @@
     <div class="row">
 
 
-        <img src="@Model.ImageUrl" style="box-shadow:2px 2px 10px 5px lightgrey; align-self:center; text-align:center; margin:auto; margin-top:20px;  margin-bottom:20px;  " />
+        <img src="@Model.ImageUrl" style="box-shadow:2px 2px 10px 5px lightgrey; align-self:center; text-align:center; margin:auto; margin-top:20px;  margin-bottom:20px;  max-width:100%;" />
+
+      
+
 
         <div class="container-fluid textstyle">
             <h3 class="style3"> How to Save and Copy the Image </h3>
@@ -40,15 +43,14 @@
 
         <!-- button -->
         <div class="container-fluid">
-                <div class="butcenter">
-        
-          <button  class="buttonout buttonout2" onclick="goBack()">Go Back</button>
+            <div class="butcenter">
 
-                            <script>function goBack() {
-                                    window.history.back();
-                                }</script>
-                    </a>
-                </div>           
+                <button class="buttonout buttonout2" onclick="goBack()">Go Back</button>
+
+                <script>function goBack() {
+                        window.history.back();
+                    }</script>
+                </a>
+            </div>
         </div>
 
-       
