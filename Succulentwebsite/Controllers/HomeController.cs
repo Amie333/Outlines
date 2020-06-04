@@ -68,268 +68,284 @@ namespace Succulentwebsite.Controllers
 
                 switch (id)
                 {
-                    case "dog":
+                    case "animal1":
 
 
-                        result.ImageUrl = "/content/images/animals/dog.png";
+                        result.ImageUrl = "/content/images/animals/animal1.png";
                         result.Description = "" ;
                         result.Title = "";
 
                         break;
 
-                    case "cat":
+                    case "animal2":
 
-                    result.ImageUrl = "/content/images/animals/cat.png";
+                    result.ImageUrl = "/content/images/animals/animal2.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "rabbit":
+                case "animal3":
 
-                    result.ImageUrl = "/content/images/animals/rabbit.png";
+                    result.ImageUrl = "/content/images/animals/animal3.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "fish":
+                case "animal4":
 
-                    result.ImageUrl = "/content/images/animals/fish.png";
+                    result.ImageUrl = "/content/images/animals/animal4.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "fish2":
+                case "animal5":
 
-                    result.ImageUrl = "/content/images/animals/fish2.png";
+                    result.ImageUrl = "/content/images/animals/animal5.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "tortiose":
+                case "animal6":
 
-                    result.ImageUrl = "/content/images/animals/tortiose.png";
+                    result.ImageUrl = "/content/images/animals/animal6.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "whales":
+                case "animal7":
 
-                    result.ImageUrl = "/content/images/animals/whales.png";
+                    result.ImageUrl = "/content/images/animals/animal7.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "lizards":
+                case "animal8":
 
-                    result.ImageUrl = "/content/images/animals/lizards.png";
+                    result.ImageUrl = "/content/images/animals/animal8.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "insects":
+                case "animal9":
 
-                    result.ImageUrl = "/content/images/animals/insects.png";
+                    result.ImageUrl = "/content/images/animals/animal9.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "horses":
+                case "animal10":
 
-                    result.ImageUrl = "/content/images/animals/horses.png";
+                    result.ImageUrl = "/content/images/animals/animal10.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "pigs":
+                case "animal11":
 
-                    result.ImageUrl = "/content/images/animals/pigs.png";
+                    result.ImageUrl = "/content/images/animals/animal11.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "lions":
+                case "animal12":
 
-                    result.ImageUrl = "/content/images/animals/lions.png";
+                    result.ImageUrl = "/content/images/animals/animal12.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "sea1":
+                case "animal13":
 
-                    result.ImageUrl = "/content/images/animals/sea1.png";
+                    result.ImageUrl = "/content/images/animals/animal13.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "sea2":
+                case "animal14":
 
-                    result.ImageUrl = "/content/images/animals/sea2.png";
+                    result.ImageUrl = "/content/images/animals/animal14.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "sea3":
+                case "animal15":
 
-                    result.ImageUrl = "/content/images/animals/sea3.png";
+                    result.ImageUrl = "/content/images/animals/animal15.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "sea4":
+                case "animal16":
 
-                    result.ImageUrl = "/content/images/animals/sea4.png";
+                    result.ImageUrl = "/content/images/animals/animal16.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "sea5":
+                case "animal17":
 
-                    result.ImageUrl = "/content/images/animals/sea5.png";
+                    result.ImageUrl = "/content/images/animals/animal17.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "sea6":
+                case "animal18":
 
-                    result.ImageUrl = "/content/images/animals/sea6.png";
+                    result.ImageUrl = "/content/images/animals/animal18.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "sea7":
+                case "animal19":
 
-                    result.ImageUrl = "/content/images/animals/sea7.png";
+                    result.ImageUrl = "/content/images/animals/animal19.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "sea8":
+                case "animal20":
 
-                    result.ImageUrl = "/content/images/animals/sea8.png";
+                    result.ImageUrl = "/content/images/animals/animal20.png";
                     result.Description = "";
                     result.Title = "";
 
            
                     break;
 
-                case "bird1":
+                case "animal21":
 
-                    result.ImageUrl = "/content/images/animals/bird1.png";
+                    result.ImageUrl = "/content/images/animals/animal21.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "bird2":
+                case "animal22":
 
-                    result.ImageUrl = "/content/images/animals/bird2.png";
+                    result.ImageUrl = "/content/images/animals/animal22.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "ins1":
+                case "animal23":
 
-                    result.ImageUrl = "/content/images/animals/ins1.png";
+                    result.ImageUrl = "/content/images/animals/animal23.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "ins2":
+                case "animal24":
 
-                    result.ImageUrl = "/content/images/animals/ins2.png";
+                    result.ImageUrl = "/content/images/animals/animal24.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "ins4":
+                case "animal25":
 
-                    result.ImageUrl = "/content/images/animals/ins4.png";
+                    result.ImageUrl = "/content/images/animals/animal25.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "ins5":
+                case "animal26":
 
-                    result.ImageUrl = "/content/images/animals/ins5.png";
+                    result.ImageUrl = "/content/images/animals/animal26.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "ins6":
+                case "animal27":
 
-                    result.ImageUrl = "/content/images/animals/ins6.png";
+                    result.ImageUrl = "/content/images/animals/animal27.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
 
-                case "cacti":
+                case "1":
 
-                    result.ImageUrl = "/content/images/plants/cacti.png";
+                    result.ImageUrl = "/content/images/plants/1.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "palm":
+                case "2":
 
-                    result.ImageUrl = "/content/images/plants/palm.png";
+                    result.ImageUrl = "/content/images/plants/2.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "lillies":
+                case "3":
 
-                    result.ImageUrl = "/content/images/plants/lillies.png";
+                    result.ImageUrl = "/content/images/plants/3.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "rose":
+                case "4":
 
-                    result.ImageUrl = "/content/images/plants/rose.png";
+                    result.ImageUrl = "/content/images/plants/4.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "succulent":
+                case "5":
 
-                    result.ImageUrl = "/content/images/plants/succulent.png";
+                    result.ImageUrl = "/content/images/plants/5.png";
                     result.Description = "";
                     result.Title = "";
 
                     break;
 
-                case "wildherbs":
+                case "6":
 
-                    result.ImageUrl = "/content/images/plants/wildherbs.png";
+                    result.ImageUrl = "/content/images/plants/6.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "7":
+
+                    result.ImageUrl = "/content/images/plants/7.png";
+                    result.Description = "";
+                    result.Title = "";
+
+                    break;
+
+                case "8":
+
+                    result.ImageUrl = "/content/images/plants/8.png";
                     result.Description = "";
                     result.Title = "";
 

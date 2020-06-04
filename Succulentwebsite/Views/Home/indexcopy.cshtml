@@ -1,139 +1,1480 @@
-﻿body {
+﻿@{
+    ViewBag.Title = "Animals";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<script src="/scripts/bootstrap.js" type="text/javascript"></script>
+<link href="/content/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="/EmptyCSSFile.css" rel="stylesheet" type="text/css" />
+
+<div class="container-fluid" style="text-align:center;">
+    <h2 class="title">Animals</h2>
+    <i class="fas fa-paw" style="font-size:40px; text-align:center; padding:5px;"></i>
+
+    <p class="stylehead" style="font-weight:bolder;"> Free outlines of a variety of animals such as house pets, aquatic life, farm animals and many more <br /> Idea: get creative and create a card for someone special with the outline you have coloured or painted <br /> The possibiltes are endless! </p>
+
+    <p class="stylehead" style="font-size:medium">
+        Don't see an outline you like? Contact us and suggest some new outlines <br />
+        The outlines range from easy to hard suitng everyone <br />
+        Select the outline you love and follow the instructions
+    </p>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- row 1 -->
+<div class="container-fluid containersize">
+    <div class="row">
+
+        <!-- box 1 -->
+        <div class="col col-md-3 col-sm-12">
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <a href="/home/ImagePage/?id=animal1"> <img class="card-img-top" src="/content/images/animals/animal1.png" style="max-width:100%; padding:2px;" /></a>
+
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Dog </h1>
+                        <p>
+                            Height: 1300px <br />
+                            Width:  1300px
+                        </p>
+                        <button class="buttonflip"><a href="/home/ImagePage/?id=animal1"> I love it </a></button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <!-- box 2 -->
+
+        <div class="col col-md-3 col-sm-12">
+
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <a href="/home/ImagePage/?id=animal2"> <img class="card-img-top" src="/content/images/animals/animal2.png" style="max-width:100%; padding:2px;" /></a>
+
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Dog </h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- box 3 -->
+
+        <div class="col col-md-3 col-sm-12">
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <a href="/home/ImagePage/?id=animal3"> <img class="card-img-top" src="/content/images/animals/animal3.png" style="max-width:100%; padding:2px;" /></a>
+
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Dog </h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- box 4 -->
+
+        <div class="col col-md-3 col-sm-12">
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <a href="/home/ImagePage/?id=animal4"> <img class="card-img-top" src="/content/images/animals/animal4.png" style="max-width:100%; padding:2px;" /></a>
+
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>Dog </h1>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- row 2 -->
+<div class="container-fluid containersize">
+    <div class="row">
+
+
+        <!-- box 1 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal5"> <img class="card-img-top" src="/content/images/animals/animal5.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body"></div>
+
+                    <div class="container-fluid">
+                        <h5 class="style1">
+                            Cat x 1
+                        </h5>
+                    </div>
+                    <div class="container-fluid">
+                        <h6 class="style1">
+                        </h6>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- box 2 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal6"> <img class="card-img-top" src="/content/images/animals/animal6.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                                Cat x 1
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- box 3 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal7"> <img class="card-img-top" src="/content/images/animals/animal7.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body"></div>
+
+
+                    <div class="container-fluid">
+                        <h5 class="style1">
+                            Rabbit x 1
+                        </h5>
+                    </div>
+                    <div class="container-fluid">
+                        <h6 class="style1">
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- box 4 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal8"> <img class="card-img-top" src="/content/images/animals/animal8.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body"></div>
+
+
+                    <div class="container-fluid">
+                        <h5 class="style1">
+                            Rabbit x 1
+                        </h5>
+                    </div>
+                    <div class="container-fluid">
+                        <h6 class="style1">
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+<!-- row 3 -->
+<div class="container-fluid containersize">
+    <div class="row">
+
+        <!-- box 1 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal8"> <img class="card-img-top" src="/content/images/animals/animal8.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                                Rabbit x 1
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- box 2 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal9"> <img class="card-img-top" src="/content/images/animals/animal9.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                                Rabbit x 1
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- box 3 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal10"> <img class="card-img-top" src="/content/images/animals/animal10.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                                Bird x 1
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- box  4 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal11"> <img class="card-img-top" src="/content/images/animals/animal11.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                                Bird x 1
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- row 4 -->
+<div class="container-fluid containersize">
+    <div class="row">
+
+        <!-- box 1 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal12"> <img class="card-img-top" src="/content/images/animals/animal12.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                                Bird x 1
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- box 2 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal13"> <img class="card-img-top" src="/content/images/animals/animal13.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                                Lizard x 1
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- box 3 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal14"> <img class="card-img-top" src="/content/images/animals/animal14.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                                Lizard x 1
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- box 4 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal12"> <img class="card-img-top" src="/content/images/animals/animal12.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                                Bird x 1
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+        </div>
+    </div>
+</div>
+
+
+<!-- row 5 -->
+<div class="container-fluid containersize">
+    <div class="row">
+
+        <!-- box 1 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal13"> <img class="card-img-top" src="/content/images/animals/animal13.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- box 2 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal14"> <img class="card-img-top" src="/content/images/animals/animal14.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- box 3 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal15"> <img class="card-img-top" src="/content/images/animals/animal15.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- box 4 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal16"> <img class="card-img-top" src="/content/images/animals/animal16.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+<!-- row 7 -->
+<div class="container-fluid containersize">
+    <div class="row">
+
+        <!-- box 1 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal17"> <img class="card-img-top" src="/content/images/animals/animal17.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- box 2 -->
+
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal18"> <img class="card-img-top" src="/content/images/animals/animal18.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- box 3 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal19"> <img class="card-img-top" src="/content/images/animals/animal19.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- box 4 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal20"> <img class="card-img-top" src="/content/images/animals/animal20.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+<!-- row 8 -->
+<div class="container-fluid containersize">
+    <div class="row">
+
+        <!-- box 1 -->
+
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal21"> <img class="card-img-top" src="/content/images/animals/animal21.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- box 2 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal22"> <img class="card-img-top" src="/content/images/animals/animal22.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- box 3 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal23"> <img class="card-img-top" src="/content/images/animals/animal23.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- box 4 -->
+
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal24"> <img class="card-img-top" src="/content/images/animals/animal24.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- row 9 -->
+<div class="container-fluid containersize">
+    <div class="row">
+
+
+
+        <!-- box 1 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal25"> <img class="card-img-top" src="/content/images/animals/animal25.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- box 2 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal26"> <img class="card-img-top" src="/content/images/animals/animal26.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- box 3 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal27"> <img class="card-img-top" src="/content/images/animals/animal27.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- box 4 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal28"> <img class="card-img-top" src="/content/images/animals/animal28.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<!-- row 9 -->
+<div class="container-fluid containersize">
+    <div class="row">
+
+
+        <!-- box 1 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal29"> <img class="card-img-top" src="/content/images/animals/animal29.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- box 2 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal30"> <img class="card-img-top" src="/content/images/animals/animal30.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- box 3 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal31"> <img class="card-img-top" src="/content/images/animals/animal31.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- box 4 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal32"> <img class="card-img-top" src="/content/images/animals/animal32.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+
+
+<!-- row 10 -->
+<div class="container-fluid containersize">
+    <div class="row">
+
+        <!-- box 1 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal33"> <img class="card-img-top" src="/content/images/animals/animal33.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- box 2 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal34"> <img class="card-img-top" src="/content/images/animals/animal34.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- box 3 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal35"> <img class="card-img-top" src="/content/images/animals/animal35.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- box 4 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal36"> <img class="card-img-top" src="/content/images/animals/animal36.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+<!-- row 11 -->
+<div class="container-fluid containersize">
+    <div class="row">
+
+        <!-- box 1 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal37"> <img class="card-img-top" src="/content/images/animals/animal37.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- box 2 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal38"> <img class="card-img-top" src="/content/images/animals/animal38.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- box 3 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal39"> <img class="card-img-top" src="/content/images/animals/animal39.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- box 4 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal40"> <img class="card-img-top" src="/content/images/animals/animal40.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- row 12 -->
+<div class="container-fluid containersize">
+    <div class="row">
+
+        <!-- box 1 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal41"> <img class="card-img-top" src="/content/images/animals/animal41.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- box 2 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal42"> <img class="card-img-top" src="/content/images/animals/animal42.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- box 3 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal43"> <img class="card-img-top" src="/content/images/animals/animal43.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- box 4 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal44"> <img class="card-img-top" src="/content/images/animals/animal44.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- row 13 -->
+<div class="container-fluid containersize">
+    <div class="row">
+
+        <!-- box 1 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal45"> <img class="card-img-top" src="/content/images/animals/animal45.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- box 2 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal46"> <img class="card-img-top" src="/content/images/animals/animal46.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- box 3 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal47"> <img class="card-img-top" src="/content/images/animals/animal47.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- box 4 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal48"> <img class="card-img-top" src="/content/images/animals/animal48.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<!-- row 13 -->
+<div class="container-fluid containersize">
+    <div class="row">
+
+        <!-- box 1 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal49"> <img class="card-img-top" src="/content/images/animals/animal49.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- box 2 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal50"> <img class="card-img-top" src="/content/images/animals/animal50.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- box 3 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal51"> <img class="card-img-top" src="/content/images/animals/animal51.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- box 4 -->
+        <div class="col col-md-3 col-sm-12">
+            <div class="card styleboximg styleboximg2">
+                <div class="">
+                    <a href="/home/ImagePage/?id=animal52"> <img class="card-img-top" src="/content/images/animals/animal52.png" style="max-width:100%; padding:2px;" /></a>
+                    <div class="card-body">
+
+
+                        <div class="container-fluid">
+                            <h5 class="style1">
+                            </h5>
+                        </div>
+                        <div class="container-fluid">
+                            <h6 class="style1">
+                            </h6>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- button -->
+
+<div class="butcenter">
+    <button class="buttonout buttonout2" onclick="goBack()">Go Back</button>
+
+    <script>function goBack() {
+            window.history.back();
+        }</script>
+</div>
+
+
+
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: white;
+    width: 95%;
+    height: 300px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 2px 2px 10px 5px darkgrey;
+
 }
 
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+    position: relative;
+    width: 95%;
+    height: 300px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
 
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
 
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 95%;
+    height: 300px;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
 
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+    background-color: ;
+    color: black;
+}
 
-
-
-<div class="container-fluid">
-    <div class="row">
-        <div class="homepageimg">
-
-
-            <div class="boxhome">
-
-                <img src="content/scribbleinpage.png" style="max-width:400px; height:unset; margin-top:30px;" />
-
-            </div>
-
-            <div class="container=fluid" style="margin:auto;">
-
-                <h3 class="style8"> ALL OUTLINES ARE FREE </h3>
-
-                <h3 class="style7"> Colour  </h3> <h3 class="style7"> Paint </h3> <h3 class="style7"> Repeat </h3>
-            </div>
-
-
-        </div>
-    </div>
-</div>
-
-
-
-
-
-<!--boxes-->
-<!-- row 1 -->
-<!-- about us -->
-<div class="container-fluid">
-    <div class="row" id="section1">
-
-
-        <div class="contabout">
-
-            <h2 class="contabout"> About Us </h2>
-            <p class="styleabout"> Colouring is a great way to relax and de-stress <br /> For children, being creative is a great way to expand their imagination in addition to improving motorskills <br /> We have a variety of outlines ranging from easy to hard suiting everyones needs <br /> Perhaps colouring isnt for you? try painting or use our outlines as insipiration for your own designs <br /> Our outlines have two thin lines as a border allowing you to colour within the border to create an image with more depth and detail <br /> Scroll down to start your creative journey   </p>
-
-        </div>
-    </div>
-</div>
-
-<!-- boxes -->
-
-<div class="container-fluid">
-    <div class="row" id="section2">
-
-        <!-- animals -->
-        <div class="col col-md-4 col-sm-12">
-            <div class="circlebox">
-
-                <a href="/home/animals"> <h2 class="boxes"> Animals </h2></a>
-
-            </div>
-        </div>
-
-        <!-- plants -->
-        <div class="col col-md-4 col-sm-12">
-            <div class="circlebox">
-
-                <a href="/home/plants"> <h2 class="boxes"> Plants and  Flowers </h2></a>
-
-            </div>
-        </div>
-
-
-        <!-- Flowers -->
-        <div class="col col-md-4 col-sm-12">
-            <div class="circlebox">
-
-                <a href="/home/fruitandvegetables"> <h2 class="boxes"> Fruit and Vegetables </h2></a>
-
-            </div>
-        </div>
-
-    </div>
-
-
-    <div class="row" id="section2">
-
-        <!-- mythical creatures -->
-        <div class="col col-md-4 col-sm-12">
-            <div class="circlebox">
-
-                <a href="/home/mythicalcreatures"> <h2 class="boxes"> Mythical Creatures </h2></a>
-
-            </div>
-        </div>
-
-        <!-- transport -->
-        <div class="col col-md-4 col-sm-12">
-            <div class="circlebox">
-
-                <a href="/home/transport"> <h2 class="boxes"> Transport </h2></a>
-
-            </div>
-        </div>
-
-
-        <!-- Disney -->
-        <div class="col col-md-4 col-sm-12">
-            <div class="circlebox">
-
-                <a href="/home/disney"> <h2 class="boxes"> Disney </h2></a>
-
-            </div>
-        </div>
-
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-<div class="container-fluid">
-    <div class="row" id="section3">
-        <div class="contus">
-            <h2 class="contus">
-                Contact Us
-            </h2>
-            <p class="styleus"> Request new outlines at scribblein20@gmail.com  </p>
-        </div>
-    </div>
-</div>
+/* Style the back side */
+.flip-card-back {
+    background-color: ;
+    color: black;
+    transform: rotateY(180deg);
+}
